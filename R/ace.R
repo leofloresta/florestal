@@ -319,7 +319,7 @@ ace <- function(x,a,aj,E=0.1,p=0.05,ampl=2,prot=NULL,prop=F,rn=F,spivi=15,un=F,p
 
   if(f>=0.98){
     #P/pop. infinita
-    s2y<-(sum(P*s)^2/sum(ss))
+   s2y<-sum(P^2*(s^2/ss))
   }
 
   #erro-padrao da media estratificada
